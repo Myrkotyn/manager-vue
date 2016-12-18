@@ -1,0 +1,73 @@
+body {
+  font-family: "Courier New";
+  padding-top: 50px; }
+  body .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #3E4E68;
+    border-right: 1px solid #eee; }
+    body .sidebar ul.nav li a {
+      display: block;
+      color: #eee;
+      width: 100%;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 25px; }
+      body .sidebar ul.nav li a i {
+        margin-right: 5px; }
+      body .sidebar ul.nav li a:hover {
+        background-color: #5F9BDB;
+        color: white !important;
+        text-shadow: none;
+        transition: all 0.2s ease 0s;
+        text-decoration: none; }
+      body .sidebar ul.nav li a:focus {
+        text-decoration: none;
+        background-color: inherit; }
+    body .sidebar ul.nav li a.router-link-active {
+      border-left: 4px solid #5F9BDB; }
+
+body {
+  background: #f5f5f5; }
+  body .page-wrapper {
+    padding: 30px 25px 0px 25px;
+    background: #f5f5f5; }
+    body .page-wrapper .box {
+      background-color: #fff; }
+      body .page-wrapper .box .box-body {
+        padding: 20px; }
+        body .page-wrapper .box .box-body .page-header {
+          margin-top: 10px; }
+  body .page-wrapper .common-manager-page .box .box-body ul {
+    list-style-type: none; }
+    body .page-wrapper .common-manager-page .box .box-body ul .checkbox-label {
+      font-size: 18px;
+      line-height: 2.5; }
+    body .page-wrapper .common-manager-page .box .box-body ul li.tasks-list {
+      border-bottom: 1px solid black;
+      margin-bottom: 10px; }
+      body .page-wrapper .common-manager-page .box .box-body ul li.tasks-list .contact {
+        font-weight: bold; }
+      body .page-wrapper .common-manager-page .box .box-body ul li.tasks-list .comment-name {
+        font-weight: bold; }
+  body .page-wrapper .common-manager-page .box .box-body input[type="checkbox"] {
+    width: 40px;
+    float: right;
+    margin: 5px; }
+    body .page-wrapper .common-manager-page .box .box-body input[type="checkbox"]:focus {
+      outline: none; }
+  body .success-gradient-pattern {
+    border: none;
+    -o-text-overflow: clip;
+    background: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 0), rgba(170, 204, 0, 0.42);
+    background: -moz-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 0), rgba(170, 204, 0, 0.42);
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent 0), rgba(170, 204, 0, 0.42); }
+
+/*# sourceMappingURL=main.css.map */

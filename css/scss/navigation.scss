@@ -1,0 +1,46 @@
+body {
+    font-family: "Courier New";
+    padding-top: 50px;
+    .sidebar {
+        position: fixed;
+        top: 51px;
+        bottom: 0;
+        left: 0;
+        z-index: 1000;
+        display: block;
+        padding: 20px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        background-color: #3E4E68;
+        border-right: 1px solid #eee;
+        ul.nav {
+            li {
+                a {
+                    display: block;
+                    color: #eee;
+                    width: 100%;
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    padding-left: 25px;
+                    i {
+                        margin-right: 5px;
+                    }
+                    &:hover {
+                        background-color: #5F9BDB;
+                        color: white!important;
+                        text-shadow: none;
+                        transition: all 0.2s ease 0s;
+                        text-decoration: none;
+                    }
+                    &:focus {
+                        text-decoration: none;
+                        background-color: inherit;
+                    }
+                }
+                a.router-link-active {
+                    border-left: 4px solid #5F9BDB;
+                }
+            }
+        }
+    }
+}
