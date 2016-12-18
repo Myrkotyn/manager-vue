@@ -48,7 +48,9 @@
 }
 </style>
 <script>
+
     const API_URL = 'http://api.managers.work';
+    import Vue from 'vue'
 
     export default{
         data(){
@@ -101,8 +103,8 @@
                 let task = _.find(app.tasks, { 'id' : taskId })
                 this.$http.delete(API_URL + '/task/' + taskId)
                 .then((response) => {
-                    // _.remove(app.tasks, { 'id' : taskId });
-                    app.delete(app.tasks, taskId)
+                    var index = app.tasks.indexOf(task);
+                    app.tasks.splice(index,1)
                 }, (error) => {
                     console.log(error);
                 });
